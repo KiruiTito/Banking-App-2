@@ -1,0 +1,121 @@
+*{
+  text-align: center;
+  background-color: rgb(2, 17, 63);
+  color: white;
+}
+
+span{
+  color: wheat;
+}
+
+table{
+  text-align: left;
+  padding: 1.5%;
+  border: 1px solid wheat;
+  margin: 2%;
+  margin-bottom: 0;
+  border-bottom: transparent;
+  background-color: rgb(13, 26, 65);
+
+}
+
+#table{
+  margin-top: -1.69%;
+  margin-bottom: 02%;
+  border: 0;
+  padding-top: 0;
+  border: 1px solid wheat;
+  border-top: transparent;
+}
+
+#search{
+  background-color: aliceblue;
+  color: rgb(2, 17, 63);
+}
+
+#search:hover{
+  transform: scale(1.1);
+  transition: .4s;
+}
+
+#table th{
+  margin: 20%;
+}
+
+td{
+  padding: 1%;
+}
+
+th{
+  padding: 1%;
+}
+
+input{
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-right: 6%;
+  padding-right: 3%;
+  margin: 1%;
+  padding: 1%;
+}
+
+button{
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(2, 17, 63);
+  margin: 2%;
+}
+
+button:hover{
+  transform: scale(1.01);
+  transition: .4s;
+  cursor: pointer;
+}
+
+form{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction:column ;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border-radius: 30px;
+
+}
+
+label{
+  background-color: aliceblue;
+  color: rgb(2, 17, 63);
+}
+
+#des{
+  width: 220%;
+}
+
+#dat{
+  width: 10%;
+}
+
+#amnt{
+  width: 105%;
+  padding:0;
+
+}
+
+#del{
+  margin: 0;
+  padding: 0;
+}
+
+#del button{
+  background-color: red;
+  color: white;
+  border:  transparent ;
+}
+
+::-webkit-scrollbar{
+  display: hidden;
+}
